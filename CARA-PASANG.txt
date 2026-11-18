@@ -1,0 +1,64 @@
+KAWAN ARAB — CARA PASANG DI ANDROID (GRATIS)
+============================================
+
+Isi folder:
+  index.html, core.js, lesson.js, views.js, talk.js, main.js, sw.js, manifest.webmanifest, folder icons/
+  content1.js, content2.js, content3.js = materi Level 1–3 (24 unit)
+  quran.js = Jalur Al-Qur'an & Shalat (6 unit)
+  extra.js = huruf hijaiyah, harakat, metode, tips, dan daftar buku Pustaka (Drive)
+
+ISI APLIKASI
+  - Beranda: target harian, streak, langkah berikutnya, murojaah, kalimat hari ini.
+  - Belajar: Fondasi (huruf & harakat), Jalur Al-Qur'an & Shalat (Al-Fatihah, bacaan
+    shalat, surat pendek, kata yang sering muncul), Level 1–3 (24 unit), ujian tiap
+    level, dan sertifikat PNG.
+    Setiap unit: kosakata bersuara -> soal kecil -> pola kalimat -> susun & ucapkan
+    -> dialog/bacaan -> soal pemahaman. Soal yang salah diulang di akhir.
+  - Latihan: Murojaah berjarak (kata muncul lagi besok, 3 hari, 7 hari, 14 hari, ...),
+    Dengar & Pilih, Ucapkan, Susun Kalimat, Kuis Kilat, Kuis Huruf, Kamus.
+  - Bicara: peragakan setiap dialog (pilih peran A/B), baca nyaring, baca ayat,
+    mode tantangan, dan Tutor AI (opsional).
+  - Pustaka: 34 buku PDF dari folder Drive "BAHASA ARAB", dikelompokkan per tahap.
+  - Profil: nama sertifikat, target, tulisan latin, kecepatan suara, cadangan progres.
+
+LANGKAH 1 — Online-kan aplikasinya (pilih salah satu, semuanya gratis)
+
+  A. Netlify Drop (paling cepat, perlu laptop/PC)
+     1. Ekstrak zip ini.
+     2. Buka https://app.netlify.com/drop lalu daftar/masuk (gratis).
+     3. Seret folder "kawan-arab" ke halaman tersebut.
+     4. Anda mendapat alamat seperti https://nama-acak.netlify.app
+
+  B. GitHub Pages
+     1. Buat repository baru di github.com, misalnya "kawan-arab" (Public).
+     2. Add file > Upload files > unggah SEMUA isi folder (termasuk folder icons).
+     3. Settings > Pages > Source: "Deploy from a branch", Branch: main / root > Save.
+     4. Tunggu 1–2 menit. Alamatnya: https://USERNAME.github.io/kawan-arab/
+
+LANGKAH 2 — Pasang di HP Android
+  1. Buka alamat tadi di Google Chrome di HP.
+  2. Ketuk menu ⋮ > "Instal aplikasi" (atau "Tambahkan ke layar utama").
+  3. Ikon Kawan Arab muncul di layar utama dan bisa dibuka offline.
+
+LANGKAH 3 — Pastikan suara Arab aktif (PENTING)
+  1. Setelan HP > Sistem > Bahasa & input > Output text-to-speech.
+  2. Pilih "Speech Services by Google" > ikon pengaturan > Instal data suara >
+     pilih "Arabic / العربية" dan unduh.
+  3. Di aplikasi: Profil > "Tes suara". Bila terdengar salam berbahasa Arab, berarti siap.
+  Penilaian ucapan (🎤) memakai pengenalan suara Google Chrome dan butuh internet.
+  Izinkan mikrofon saat diminta.
+
+OPSIONAL — Tutor AI
+  Profil > Tutor AI. Tempel kunci API Gemini gratis dari https://aistudio.google.com/apikey
+  untuk ngobrol bebas dalam bahasa Arab dengan terjemahan dan koreksi otomatis.
+
+OPSIONAL — File APK sungguhan
+  Buka https://www.pwabuilder.com, masukkan alamat dari Langkah 1, pilih
+  "Package for stores" > Android > Generate, lalu pasang file .apk di HP.
+
+CATATAN
+  - Progres tersimpan di HP itu sendiri. Pakai Profil > "Unduh cadangan" sebelum ganti HP.
+  - Buku di Pustaka dibuka dari Google Drive. Agar santri juga bisa membukanya,
+    atur folder Drive ke "Siapa saja yang memiliki link".
+  - Suara Arab dibacakan mesin (text-to-speech), bukan bacaan murattal. Untuk tilawah
+    dan tajwid tetap ikuti bacaan qari/guru.
